@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background: url(images/backgroundpattern.png);
+}
+
+img:first-of-type{
+    margin-left: 2%;
+}
+
+#first-section{
+    height: 100vh;
+}
+
+#logo{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+}
+
+.arrow-btn {
+    width: 4%;
+    margin:30px auto;
+    display: block;
+}
+
+.arrow-btn:hover {
+   scale:1.2;  
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+h3,h2,h1, p{
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+h3{
+    margin-top: 7%;
+    font-size: 1.6rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 3%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+button{
+    width: 12%;
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    display: block;
+    margin: 5% auto;
+    border-radius: 12px;
+    border: 3px solid rgb(82, 82, 82);
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+span{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#canister{
+    font-size: 1.3rem;
+    background-color: #323232;
+    width: fit-content;
+    margin: 5% auto;
+    padding: 2%;
+    border: 2px solid white;
+}
+
+hr{
+    border:3px solid white;
+    border-radius: 50px;
+    width: 100%;
+    margin:0 auto 0%;
+}
+
+#chart{
+    display: block;
+    margin:5% auto;
+    width: 30%;
+}
+
+table, td{
+    background-color: #323232;
+    font-weight: bold;
+    border: 3px solid white;
+    color: white;
+    line-height: 1.8;
+    margin: 5% auto;
+    border-collapse: collapse;
+    text-align: center;
+    width: 40%;
+}
+
+tr:hover {
+    background-color: rgb(253, 96, 39);
+}
+
+#tokenomics-row{
+    margin: 5% auto 0;
+    display: flex;
+    width: 90%;
+}
+
+#p-story{
+    width: 50%;
+    text-align: left;
+    align-self: center;
+    border: 2px dashed white;
+    border-right: none;
+    border-left: none;
+    padding: 3%;
+}
+
+#story-row{
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#dog-picture{
+    width: 20%;
+    border-radius: 16px;
+    margin-right: 5%;
+}
+
+#bottom-container{
+    background-color: #323232;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+}
+
+#community{ 
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
+
+.links{
+    margin: 0 25px 2%;
+    width: 40px;
+}
+
+.links:hover{
+    scale:1.2;
+}
+
+@media screen and (max-width:600px) {
+    
+    #logo{
+        display: block;
+        margin: 15% auto 0;
+        width: 40%;
+    }
+
+    .arrow-btn {
+        width: 10%;
+        margin: 30% auto;
+    }
+    
+    p{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h3{
+        font-size: 1.4rem;
+    }
+    
+    #header3{
+        margin-top: 30%;
+    }
+   
+    h1{
+        font-size: 2.5rem;
+    }
+
+    button{
+        width: 25%;
+        margin: 10% auto;
+    }
+    
+    hr{
+        display: none;
+    }
+    
+    #chart{
+        margin:10% auto;
+        width: 80%;
+    }
+    
+    table, td{
+        margin: 10% auto;
+        width: 70%;
+    }
+
+    #tokenomics-row{
+        display: block;
+    }
+    
+    #p-story{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #story-row{
+        display: block;
+    }
+
+    #dog-picture{
+        display: block;
+        width: 40%;
+        margin: 10% auto;
+    }
+    
+    #community{ 
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
